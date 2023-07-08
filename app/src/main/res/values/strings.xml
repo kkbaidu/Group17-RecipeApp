@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Recipe</string>
+    <string name="kale_soup">Delicious Kale soup</string>
+    <string name="type_ingredient">Type your ingredients</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="splash_screen_words">Enjoy Me</string>
+</resources>
