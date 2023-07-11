@@ -41,6 +41,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     }
 
     @Override
+    // overide the getItemCount
     public int getItemCount() {
 
         return arr.length;
