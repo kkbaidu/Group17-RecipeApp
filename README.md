@@ -4,3 +4,4 @@
 <p>Kingsley Korankye Baidu - 10957342</p>
 <p>Emmanuel Yartey - 10987736</p>
 <span>Yaw Offeh Dansoh - 10951682<span>
+<p>Kingsley Naworng Kwame Ignatius - 10961336</p>
