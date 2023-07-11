@@ -21,12 +21,13 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
     @NonNull
     @Override
-    public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    // This the public function
+  public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.single_card_view, parent,false);
         MyViewHolder myViewHolder = new MyViewHolder(view);
         return myViewHolder;
-    }
+    } 
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
