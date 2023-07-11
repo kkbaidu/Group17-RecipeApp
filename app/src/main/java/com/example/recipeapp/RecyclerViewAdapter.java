@@ -45,7 +45,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
         return arr.length;
     }
-
+    // RecyclerView class 
     public class MyViewHolder extends RecyclerView.ViewHolder{
 
         ImageView cardImage;
