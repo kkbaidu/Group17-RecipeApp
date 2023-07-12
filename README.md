@@ -6,5 +6,5 @@
 <p>Yaw Offeh Dansoh - 10951682<p>
 <p>Naworng Kwame Ignatius - 10961336</p>
 <p>Audrey Asheley Amarh - 10947541</p>
-<p>Oheneba Vincent Dzifa -- 10983369</p>
-<p>Richard Elinam Nutsugah -- 10</p>
+<p>Oheneba Vincent Dzifa - 10983369</p>
+<p>Richard Elinam Nutsugah - 10953871</p>
