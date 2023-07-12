@@ -11,7 +11,7 @@
     app:cardCornerRadius="12dp"
     app:layout_constraintStart_toStartOf="parent"
     app:cardBackgroundColor="@color/lightgray">
-
+    
     <ImageView
         android:layout_width="112dp"
         android:layout_height="90dp"
