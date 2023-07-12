@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+    <style name="TextInputEditTextStyle" parent="Widget.MaterialComponents.TextInputEditText.FilledBox">
+        <item name="android:padding">12dp</item>
+    </style>
+
+
+    <style name="MaterialButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginBottom">30dp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="backgroundTint">@color/lightBlue</item>
+    </style>
+
+</resources>
