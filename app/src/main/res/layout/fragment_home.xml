@@ -17,79 +17,92 @@
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="279dp"
-            android:layout_height="67dp"
-            android:layout_marginStart="52dp"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="80dp"
+            android:layout_width="283dp"
+            android:layout_height="40dp"
             android:text="Search"
             android:textAlignment="center"
             android:textFontWeight="300"
             android:textSize="25sp"
-            app:layout_constraintBottom_toTopOf="@+id/main_header"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.393"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.057" />
+
 
         <TextView
-            android:id="@+id/main_header"
+            android:id="@+id/textView"
             android:layout_width="363dp"
             android:layout_height="38dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="12dp"
+            android:gravity="center"
             android:text="What is in your kitchen?"
             android:textFontWeight="300"
             android:textSize="25sp"
-            app:layout_constraintBottom_toTopOf="@+id/search_box"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-
-        <LinearLayout
-            android:id="@+id/search_box"
-            android:layout_width="339dp"
-            android:layout_height="41dp"
-            android:layout_marginTop="12dp"
-            android:background="@drawable/rounded_conners"
-            android:gravity="center"
-            android:paddingLeft="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.51"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/main_header">
-
-            <ImageView
-                android:layout_width="40dp"
-                android:layout_height="31dp"
-                android:layout_gravity="center"
-                android:layout_marginRight="6dp"
-                android:src="@drawable/search" />
-
-            <EditText
-                android:id="@+id/edit_text"
-                android:layout_width="352dp"
-                android:layout_height="39dp"
-                android:layout_weight="4"
-                android:autofillHints="Enter item"
-                android:hint="@string/type_ingredient"
-                android:inputType="text" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/recipes_con"
-            android:layout_width="374dp"
-            android:layout_height="356dp"
-            android:layout_marginBottom="120dp"
-            android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.552"
-            app:layout_constraintStart_toStartOf="parent">
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.165" />
 
-            <include layout="@layout/recipecard" />
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="378dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="200dp"
+            android:gravity="center"
 
-            <include layout="@layout/recipecard" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.393"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                app:layout_constraintHorizontal_weight="10"
+                app:layout_constraintVertical_weight="10">
+
+                <EditText
+                    android:id="@+id/SearchView"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/search_background"
+                    android:drawableStart="@drawable/search_24"
+                    android:drawablePadding="15dp"
+                    android:drawableTint="@android:color/darker_gray"
+                    android:hint="Type Your Ingredient"
+                    android:imeOptions="actionSearch"
+                    android:paddingStart="10dp"
+                    android:singleLine="true"
+                    android:textSize="18dp">
+
+                </EditText>
+            </FrameLayout>
         </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:clipToPadding="false"
+            android:overScrollMode="never"
+            android:paddingHorizontal="8dp"
+            android:paddingBottom="40dp"
+            android:scrollbarSize="2dp"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            app:spanCount="2"
+            tools:listitem="@layout/single_card_view"
+            android:background="@color/black"/>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
