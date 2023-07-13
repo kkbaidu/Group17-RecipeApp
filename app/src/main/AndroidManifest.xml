@@ -24,10 +24,20 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+
+
+        <activity
+            android:name=".RecipeDetailsActivity"
+            android:label="Recipe Details"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
 
     </application>
 
 </manifest>
-
 
