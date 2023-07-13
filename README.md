@@ -1,7 +1,7 @@
 # Group17-RecipeApp
 <h3>Recipe App</h3>
 
-<p>Kingsley Korankye Baidu - 10957342</p>
+<p>Kingsley Korankye Baidu - 10957342 <strong>Team Leader</strong></p>
 <p>Emmanuel Yartey - 10987736</p>
 <p>Yaw Offeh Dansoh - 10951682<p>
 <p>Naworng Kwame Ignatius - 10961336</p>
@@ -11,13 +11,13 @@
 
 
 <h2>Roles of group members</h2>
-<p>Kingsley - MainActivity.java and activity_main.xml</p>
-<p>Yaw - SplashActivity.java and splash_screen.xml</p>
-<p>Eli - HomeFragment.java and fragment_home.xml</p>
-<p>Julia - SavedFragment.java</p>
-<p>Emmanuel - RecyclerViewAdapter.java</p>
-<p>Audrey - fragment_list.xml</p>
-<p>Igna - single_card_view.xml</p>
-<p>Percy - fragment_saved.xml</p>
-<p>Vincent - recipecard.xml</p>
-<p>Erica - fragment_add.xml</p>
+<p>Kingsley Korankye Baidu - MainActivity.java and activity_main.xml</p>
+<p>Yaw Offeh Dansoh - SplashActivity.java and splash_screen.xml</p>
+<p>Richard Elinam Nutsugah - HomeFragment.java and fragment_home.xml</p>
+<p>Julia Osei- SavedFragment.java</p>
+<p>Emmanuel Yartey - RecyclerViewAdapter.java</p>
+<p>Audrey Asheley Amarh - fragment_list.xml</p>
+<p>Naworng Kwame Ignatius - single_card_view.xml</p>
+<p>Ayimbila Nsolemna Percy - fragment_saved.xml</p>
+<p>Oheneba Vincent Dzifa - recipecard.xml</p>
+<p>Erica Annor Kyei - fragment_add.xml</p>
